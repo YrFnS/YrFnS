@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="170" viewBox="0 0 480 170">
+  <foreignObject width="480" height="170">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="card">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        .card { position: relative; width: 480px; height: 170px; padding: 2px; border-radius: 16px; overflow: hidden; background: #1f2630;
+          font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; }
+        .beam { position: absolute; left: 50%; top: 50%; width: 600px; height: 600px; margin: -300px;
+          background: conic-gradient(transparent 0 72%, #f472b6 88%, transparent 100%);
+          animation: spin 6s linear infinite; animation-delay: -6.5s; }
+        .inner { position: relative; height: 100%; border-radius: 14px; background: #0d1117; overflow: hidden;
+          padding: 20px 24px; display: flex; flex-direction: column; }
+        .glow { position: absolute; right: -60px; top: -60px; width: 180px; height: 180px; border-radius: 50%;
+          background: #f472b6; filter: blur(60px); opacity: .22; }
+        .kind { position: relative; font-size: 12px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: #f472b6; }
+        .title { position: relative; font-size: 26px; font-weight: 800; color: #e6edf3; margin-top: 4px; letter-spacing: -.5px; }
+        .desc { position: relative; font-size: 14px; color: #8b949e; margin-top: 6px; line-height: 1.4; }
+        .foot { position: relative; display: flex; align-items: center; margin-top: auto; gap: 8px; }
+        .chip { font-size: 12px; color: #c9d1d9; padding: 3px 10px; border-radius: 999px;
+          background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1); }
+        .live { margin-left: auto; display: flex; align-items: center; gap: 7px; font-size: 13px; font-weight: 600; color: #f472b6; }
+        .dot { width: 8px; height: 8px; border-radius: 50%; background: #f472b6; box-shadow: 0 0 0 0 #f472b6; animation: ping 2s ease-out infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        @keyframes ping { 0% { box-shadow: 0 0 0 0 #f472b6aa; } 100% { box-shadow: 0 0 0 10px #f472b600; } }
+        @media (prefers-reduced-motion: reduce) { .beam, .dot { animation: none; } }
+      </style>
+      <div class="beam"></div>
+      <div class="inner">
+        <div class="glow"></div>
+        <p class="kind">Interactive 3D</p>
+        <p class="title">Solar System Explorer</p>
+        <p class="desc">An interactive 3D tour of the solar system.</p>
+        <div class="foot"><span class="chip">Next.js</span><span class="chip">Three.js</span><span class="chip">R3F</span><span class="live"><span class="dot"></span>Live demo</span></div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

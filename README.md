@@ -1,16 +1,23 @@
-<img src="assets/header.svg" width="100%" alt="Yasser — full-stack developer, team lead">
+<p align="center">
+  <img src="assets/hero.svg" width="100%" alt="Yasser — full-stack developer and team lead building healthcare systems, point-of-sale apps, ERP add-ons on Frappe, and tools for AI agents">
+</p>
 
-I'm a full-stack developer who leads a small dev team. I build healthcare and point-of-sale systems, ERP add-ons on Frappe, and tooling for AI coding agents.
+<h3 align="center">Live projects</h3>
 
-### Live projects
+<p align="center">
+  <a href="https://counterrx.vercel.app"><img src="assets/card-counterrx.svg" width="49%" alt="CounterRx — pharmacy POS"></a>
+  <a href="https://clinixsummary.vercel.app"><img src="assets/card-medibrief.svg" width="49%" alt="MediBrief — healthcare AI shift assistant"></a>
+  <a href="https://restaurant-sage-eta.vercel.app"><img src="assets/card-restaurant.svg" width="49%" alt="Restaurant — bilingual management platform"></a>
+  <a href="https://veritas-multi-agent-reasoning.vercel.app"><img src="assets/card-veritas.svg" width="49%" alt="Veritas — multi-agent AI reasoning"></a>
+  <a href="https://3d-boat-physics-simulator.vercel.app"><img src="assets/card-boat.svg" width="49%" alt="3D Boat Physics simulator"></a>
+  <a href="https://solar-system-explorer-three.vercel.app"><img src="assets/card-solar.svg" width="49%" alt="Solar System Explorer"></a>
+</p>
 
-| Project | What it is | Demo |
-| --- | --- | --- |
-| [CounterRx](https://github.com/YrFnS/CounterRx) | Pharmacy POS: React, Supabase, offline-first sync | [open](https://counterrx.vercel.app) |
-| [MediBrief](https://github.com/YrFnS/MediBrief) | AI shift assistant that turns patient documents into daily briefings | [open](https://clinixsummary.vercel.app) |
-| [Restaurant](https://github.com/YrFnS/Restaurant) | Bilingual restaurant management: Next.js, Prisma, Neon Postgres | [open](https://restaurant-sage-eta.vercel.app) |
-| [Veritas](https://github.com/YrFnS/Veritas-Multi-Agent-Reasoning) | Multi-agent reasoning interface | [open](https://veritas-multi-agent-reasoning.vercel.app) |
-| [3D Boat Physics](https://github.com/YrFnS/3D-Boat-Physics-Simulator) | Real-time 3D boat physics in the browser | [open](https://3d-boat-physics-simulator.vercel.app) |
-| [Solar System Explorer](https://github.com/YrFnS/Solar-System-Explorer) | Interactive 3D solar system | [open](https://solar-system-explorer-three.vercel.app) |
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YrFnS/YrFnS/output/github-snake-dark.svg">
+    <img src="https://raw.githubusercontent.com/YrFnS/YrFnS/output/github-snake.svg" width="100%" alt="Snake eating my contribution graph">
+  </picture>
+</p>
 
-More at [yasserreyadh.vercel.app](https://yasserreyadh.vercel.app/).
+<p align="center">More at <a href="https://yasserreyadh.vercel.app/">yasserreyadh.vercel.app</a></p>
