@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="96" viewBox="0 0 1000 96">
+  <foreignObject width="1000" height="96">
+    <div xmlns="http://www.w3.org/1999/xhtml" class="h">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        .h { width: 1000px; height: 96px; display: flex; align-items: center; gap: 28px;
+          font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif; }
+        .rule { position: relative; flex: 1; height: 2px; overflow: hidden; border-radius: 2px; }
+        .rule.l { background: linear-gradient(90deg, transparent, rgba(167,139,250,.55)); }
+        .rule.r { background: linear-gradient(90deg, rgba(34,211,238,.55), transparent); }
+        .rule i { position: absolute; top: 0; width: 80px; height: 2px;
+          background: linear-gradient(90deg, transparent, #fff, transparent); animation: run 3.5s ease-in-out infinite; }
+        .rule.r i { animation-direction: reverse; }
+        .text { text-align: center; }
+        .title { font-size: 34px; font-weight: 800; letter-spacing: -1px;
+          background: linear-gradient(90deg, #a78bfa, #22d3ee, #34d399, #f472b6, #a78bfa); background-size: 300% 100%;
+          -webkit-background-clip: text; background-clip: text; color: transparent; animation: shine 8s linear infinite; }
+        .sub { font-size: 14px; color: #8b949e; margin-top: 2px; letter-spacing: .3px; }
+        @keyframes run { from { left: -80px; } to { left: 100%; } }
+        @keyframes shine { to { background-position: 300% 0; } }
+        @media (prefers-color-scheme: light) {
+          .title { background-image: linear-gradient(90deg, #7c3aed, #0891b2, #059669, #db2777, #7c3aed); }
+          .sub { color: #57606a; }
+          .rule i { background: linear-gradient(90deg, transparent, #7c3aed, transparent); }
+        }
+        @media (prefers-reduced-motion: reduce) { .rule i, .title { animation: none; } }
+      </style>
+      <div class="rule l"><i></i></div>
+      <div class="text"><p class="title">Live projects</p><p class="sub">Click a card to open the demo</p></div>
+      <div class="rule r"><i></i></div>
+    </div>
+  </foreignObject>
+</svg>

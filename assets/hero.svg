@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
-  <foreignObject width="1000" height="340">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+  <foreignObject width="1000" height="300">
     <div xmlns="http://www.w3.org/1999/xhtml" class="wrap">
       <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         .wrap {
-          position: relative; width: 1000px; height: 340px; overflow: hidden;
+          position: relative; width: 1000px; height: 300px; overflow: hidden;
           border-radius: 20px; background: #07090f; color: #e6edf3;
           font-family: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
           padding: 0 64px; display: flex; flex-direction: column; justify-content: center;
@@ -24,7 +24,7 @@
         .b3 { width: 220px; height: 220px; background: #db2777; right: -40px; top: -60px; opacity: .35; animation: drift 19s ease-in-out infinite alternate; }
         @keyframes drift { to { transform: translate(90px, 50px) scale(1.15); } }
 
-        .orbit { position: absolute; right: 90px; top: 50%; width: 0; height: 0; }
+        .orbit { position: absolute; right: 170px; top: 50%; width: 0; height: 0; }
         .ring { position: absolute; border-radius: 50%; border: 1px dashed rgba(255,255,255,.16); animation: spin linear infinite; }
         .ring i { position: absolute; top: -5px; left: 50%; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; }
         .r1 { width: 120px; height: 120px; margin: -60px; animation-duration: 8s; }

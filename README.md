@@ -2,7 +2,9 @@
   <img src="assets/hero.svg" width="100%" alt="Yasser — full-stack developer and team lead building healthcare systems, point-of-sale apps, ERP add-ons on Frappe, and tools for AI agents">
 </p>
 
-<h3 align="center">Live projects</h3>
+<p align="center">
+  <img src="assets/heading-projects.svg" width="100%" alt="Live projects">
+</p>
 
 <p align="center">
   <a href="https://counterrx.vercel.app"><img src="assets/card-counterrx.svg" width="49%" alt="CounterRx — pharmacy POS"></a>
@@ -11,6 +13,10 @@
   <a href="https://veritas-multi-agent-reasoning.vercel.app"><img src="assets/card-veritas.svg" width="49%" alt="Veritas — multi-agent AI reasoning"></a>
   <a href="https://3d-boat-physics-simulator.vercel.app"><img src="assets/card-boat.svg" width="49%" alt="3D Boat Physics simulator"></a>
   <a href="https://solar-system-explorer-three.vercel.app"><img src="assets/card-solar.svg" width="49%" alt="Solar System Explorer"></a>
+</p>
+
+<p align="center">
+  <img src="assets/heading-activity.svg" width="100%" alt="Activity">
 </p>
 
 <p align="center">
