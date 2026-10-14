@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="240" viewBox="0 0 800 240" role="img" aria-label="Yasser, full-stack developer and team lead">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7ee787"/>
+      <stop offset="1" stop-color="#79c0ff"/>
+    </linearGradient>
+    <clipPath id="l1"><rect x="0" y="62" height="28" width="0"><animate attributeName="width" to="800" begin="0.3s" dur="0.5s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l2"><rect x="0" y="92" height="28" width="0"><animate attributeName="width" to="800" begin="1s" dur="1.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l3"><rect x="0" y="130" height="28" width="0"><animate attributeName="width" to="800" begin="2.8s" dur="0.6s" fill="freeze"/></rect></clipPath>
+    <clipPath id="l4"><rect x="0" y="160" height="28" width="0"><animate attributeName="width" to="800" begin="3.6s" dur="1.8s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 18px; }
+    .p { fill: #7ee787; }
+    .c { fill: #e6edf3; }
+    .o { fill: #8b949e; }
+    .h { fill: #79c0ff; }
+  </style>
+
+  <rect x="1" y="1" width="798" height="238" rx="12" fill="#0d1117" stroke="url(#edge)" stroke-width="2"/>
+  <circle cx="26" cy="26" r="6" fill="#ff5f57"/>
+  <circle cx="46" cy="26" r="6" fill="#febc2e"/>
+  <circle cx="66" cy="26" r="6" fill="#28c840"/>
+
+  <text x="28" y="82" clip-path="url(#l1)"><tspan class="p">$ </tspan><tspan class="c">whoami</tspan></text>
+  <text x="28" y="112" clip-path="url(#l2)"><tspan class="h">Yasser</tspan><tspan class="o"> — full-stack developer, team lead</tspan></text>
+  <text x="28" y="150" clip-path="url(#l3)"><tspan class="p">$ </tspan><tspan class="c">cat stack.txt</tspan></text>
+  <text x="28" y="180" clip-path="url(#l4)" class="o">TypeScript · Next.js · NestJS · Python · Frappe</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" to="1" begin="5.6s" dur="0.01s" fill="freeze"/>
+    <text x="28" y="218" class="p">$</text>
+    <rect x="48" y="203" width="10" height="20" fill="#e6edf3">
+      <animate attributeName="opacity" values="1;0" dur="1s" begin="5.6s" repeatCount="indefinite" calcMode="discrete"/>
+    </rect>
+  </g>
+</svg>
