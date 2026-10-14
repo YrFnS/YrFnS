@@ -29,7 +29,7 @@
         <div class="glow"></div>
         <p class="kind">Healthcare AI</p>
         <p class="title">MediBrief</p>
-        <p class="desc">Shift assistant that turns patient documents into daily briefings.</p>
+        <p class="desc">Turns patient documents into shift briefings.</p>
         <div class="foot"><span class="chip">React</span><span class="chip">Gemini</span><span class="chip">Vite</span><span class="live"><span class="dot"></span>Live demo</span></div>
       </div>
     </div>

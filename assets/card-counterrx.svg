@@ -29,7 +29,7 @@
         <div class="glow"></div>
         <p class="kind">Pharmacy POS</p>
         <p class="title">CounterRx</p>
-        <p class="desc">Offline-first point of sale with sync, staff auth and inventory.</p>
+        <p class="desc">Offline-first POS with sync and inventory.</p>
         <div class="foot"><span class="chip">React</span><span class="chip">Supabase</span><span class="chip">Vite</span><span class="live"><span class="dot"></span>Live demo</span></div>
       </div>
     </div>
